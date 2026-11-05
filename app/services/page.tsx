@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { PageHero } from '@/components/page-hero'
-import { ServicesSection } from '@/components/services-section'
+import { ServicesGallery } from '@/components/services-gallery'
 import { CtaBand } from '@/components/cta-band'
 
 export const metadata: Metadata = {
@@ -13,7 +13,7 @@ export default function ServicesPage() {
   return (
     <main>
       <PageHero page="services" />
-      <ServicesSection />
+      <ServicesGallery />
       <CtaBand />
     </main>
   )
