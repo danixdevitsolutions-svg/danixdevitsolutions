@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import Image from 'next/image'
 import { ArrowRight, ShieldCheck, Sparkles } from 'lucide-react'
 import { useLanguage } from './language-provider'
@@ -37,19 +38,19 @@ export function HeroSection() {
           </p>
 
           <div className="flex flex-wrap items-center gap-3">
-            <a
-              href="#contact"
+            <Link
+              href="/contact"
               className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3.5 text-sm font-semibold text-primary-foreground shadow-lg shadow-primary/25 transition-colors hover:bg-navy"
             >
               {t.hero.primary}
               <ArrowRight className="size-4 rtl:rotate-180" aria-hidden="true" />
-            </a>
-            <a
-              href="#services"
+            </Link>
+            <Link
+              href="/services"
               className="inline-flex items-center rounded-full border border-border bg-background px-6 py-3.5 text-sm font-semibold text-navy transition-colors hover:border-primary hover:text-primary"
             >
               {t.hero.secondary}
-            </a>
+            </Link>
           </div>
         </div>
 

@@ -17,6 +17,19 @@ export const translations = {
       contact: 'Contact',
       cta: 'Get a Quote',
     },
+    pages: {
+      about: { title: 'About DaniXdev IT Solutions', subtitle: 'A Pakistan-based technology company, serving businesses and individuals across the country since 2023.' },
+      services: { title: 'Our Services', subtitle: 'End-to-end IT and digital solutions built to help your business grow, innovate and stay secure.' },
+      team: { title: 'Meet Our Team', subtitle: 'The experienced professionals behind every project we deliver.' },
+      pricing: { title: 'Pricing Packages', subtitle: 'Transparent, cost-effective plans for startups, growing businesses and enterprises.' },
+      contact: { title: 'Contact Us', subtitle: 'Tell us about your project. We usually respond within a few hours.' },
+    },
+    ctaBand: {
+      title: 'Ready to start your next project?',
+      subtitle: 'Let’s build something reliable, secure and future-ready together.',
+      primary: 'Get a Free Quote',
+      secondary: 'View Pricing',
+    },
     hero: {
       badge: 'Serving clients all over Pakistan since 2023',
       titleA: 'Smart digital solutions to',
@@ -140,6 +153,19 @@ export const translations = {
       pricing: 'قیمتیں',
       contact: 'رابطہ',
       cta: 'کوٹ حاصل کریں',
+    },
+    pages: {
+      about: { title: 'DaniXdev IT Solutions کے بارے میں', subtitle: 'پاکستان کی ایک ٹیکنالوجی کمپنی، جو 2023 سے پورے ملک میں کاروباروں اور افراد کو خدمات فراہم کر رہی ہے۔' },
+      services: { title: 'ہماری سروسز', subtitle: 'مکمل آئی ٹی اور ڈیجیٹل حل جو آپ کے کاروبار کو ترقی دینے اور محفوظ رکھنے کے لیے بنائے گئے ہیں۔' },
+      team: { title: 'ہماری ٹیم سے ملیں', subtitle: 'ہر پروجیکٹ کے پیچھے موجود تجربہ کار ماہرین۔' },
+      pricing: { title: 'قیمتوں کے پیکجز', subtitle: 'اسٹارٹ اپس، بڑھتے کاروباروں اور اداروں کے لیے واضح اور کم لاگت پلانز۔' },
+      contact: { title: 'ہم سے رابطہ کریں', subtitle: 'اپنے پروجیکٹ کے بارے میں بتائیں، ہم عموماً چند گھنٹوں میں جواب دیتے ہیں۔' },
+    },
+    ctaBand: {
+      title: 'کیا آپ اپنا اگلا پروجیکٹ شروع کرنے کے لیے تیار ہیں؟',
+      subtitle: 'آئیں مل کر کچھ قابلِ اعتماد، محفوظ اور جدید بنائیں۔',
+      primary: 'مفت کوٹ حاصل کریں',
+      secondary: 'قیمتیں دیکھیں',
     },
     hero: {
       badge: '2023 سے پورے پاکستان میں خدمات',

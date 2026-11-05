@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import { Check } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { useLanguage } from './language-provider'
@@ -60,15 +61,15 @@ export function PricingSection() {
                     </li>
                   ))}
                 </ul>
-                <a
-                  href="#contact"
+                <Link
+                  href="/contact"
                   className={cn(
                     'inline-flex justify-center rounded-full px-6 py-3 text-sm font-semibold transition-colors',
                     featured ? 'bg-primary text-primary-foreground hover:bg-white hover:text-navy' : 'bg-navy text-white hover:bg-primary',
                   )}
                 >
                   {t.pricing.choose}
-                </a>
+                </Link>
               </li>
             )
           })}
