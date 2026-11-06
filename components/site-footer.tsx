@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+import Link from 'next/link'
 import { CONTACT } from '@/lib/i18n'
 import { useLanguage } from './language-provider'
 
@@ -8,11 +9,11 @@ export function SiteFooter() {
   const { t } = useLanguage()
 
   const links = [
-    { href: '#about', label: t.nav.about },
-    { href: '#services', label: t.nav.services },
-    { href: '#team', label: t.nav.team },
-    { href: '#pricing', label: t.nav.pricing },
-    { href: '#contact', label: t.nav.contact },
+    { href: '/about', label: t.nav.about },
+    { href: '/services', label: t.nav.services },
+    { href: '/team', label: t.nav.team },
+    { href: '/pricing', label: t.nav.pricing },
+    { href: '/contact', label: t.nav.contact },
   ]
 
   return (
@@ -36,7 +37,7 @@ export function SiteFooter() {
           <ul className="flex flex-col gap-2.5">
             {links.map((l) => (
               <li key={l.href}>
-                <a href={l.href} className="text-sm text-white/70 transition-colors hover:text-white">{l.label}</a>
+                <Link href={l.href} className="text-sm text-white/70 transition-colors hover:text-white">{l.label}</Link>
               </li>
             ))}
           </ul>
